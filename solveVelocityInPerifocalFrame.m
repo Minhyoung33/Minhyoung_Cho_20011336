@@ -11,7 +11,7 @@ a=semimajor_axis;
 e=eccentricity; 
 nu=true_anomaly; %deg
 mu=3.986004418*10^5; %km^3/s^2
-p=a*(1-e)^2; %km
+p=a*(1-e^2); %km
 
 velocityInPQW=sqrt(mu/p).*[-sind(nu);e+cosd(nu);0];
 
