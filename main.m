@@ -1,4 +1,4 @@
-cd 'C:\Users\jomin\OneDrive - Sejong University\개인\세종대학교\4학년\우주궤도역학\Term Project Module 2';
+% cd 'C:\Users\jomin\OneDrive - Sejong University\개인\세종대학교\4학년\우주궤도역학\Term Project Module 2';
 load nav.mat;
 nav_GPS=[nav.GPS.a;nav.GPS.e;nav.GPS.i;nav.GPS.omega;nav.GPS.M0;cal2time(nav.GPS.toc);nav.GPS.OMEGA];
 nav_QZSS=[nav.QZSS.a;nav.QZSS.e;nav.QZSS.i;nav.QZSS.omega;nav.QZSS.M0;cal2time(nav.QZSS.toc);nav.QZSS.OMEGA];
