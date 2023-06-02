@@ -19,5 +19,4 @@ R3=[cosd(arg_prg) sind(arg_prg) 0;
 mat_rot=(R3*R2*R1)';
 
 
-
 end
